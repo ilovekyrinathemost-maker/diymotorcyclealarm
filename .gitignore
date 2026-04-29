@@ -1,0 +1,43 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# ESP-IDF
+sdkconfig.old
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# KiCad backups
+*-backups/
+*.kicad_pro.lck
+_autosave-*
+fp-info-cache
+
+# 3D printing
+*.gcode
+
+# Secrets
+secrets.h
+credentials.h
+
+# Agent Zero project internals
+.a0proj/
