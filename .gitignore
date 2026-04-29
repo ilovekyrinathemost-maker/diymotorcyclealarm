@@ -41,3 +41,4 @@ credentials.h
 
 # Agent Zero project internals
 .a0proj/
+sdkconfig
